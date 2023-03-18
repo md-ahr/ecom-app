@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "futura-book";
+  src: url("../fonts/Futura-Book.ttf");
+}
+
+@font-face {
+  font-family: "futura-heavy";
+  src: url("../fonts/Futura-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "futura-round";
+  src: url("../fonts/Futura-Round.ttf");
+}
+
+@font-face {
+  font-family: "futura-thin";
+  src: url("../fonts/Futura-Thin.ttf");
+}

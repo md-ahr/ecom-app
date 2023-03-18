@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #EEAFA6;
+  --font-color: #111111;
+  --bg-color: #E5E5E5;
+  --light-bg-color: #EADFDD;
+  --font-book: 'futura-book';
+  --font-heavy: 'futura-heavy';
+  --font-round: 'futura-round';
+  --font-thin: 'futura-thin';
+}
+
+[data-theme="dark"] {
+  --font-color: #E1E1FF;
+  --bg-color: #161625;
+  --light-bg-color: #e08a7d;
+}
