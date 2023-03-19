@@ -239,3 +239,36 @@ a {
     font-size: 14px;
   }
 }
+
+/*------------------
+   center banners
+------------------*/
+
+.main .center-banner {
+  margin-top: 8px;
+}
+
+.main .center-banner img {
+  width: 100%;
+  height: 700px;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+/*------------------
+    small banners
+------------------*/
+
+.main .small-banner {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-block: 80px;
+}
+
+.main .small-banner img {
+  width: 400px;
+  height: 240px;
+  object-fit: cover;
+}
