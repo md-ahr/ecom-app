@@ -263,12 +263,16 @@ a {
   display: flex;
   gap: 20px;
   align-items: center;
-  justify-content: center;
   margin-block: 80px;
+  justify-content: space-between;
+}
+
+.main .small-banner a {
+  width: 400px;
 }
 
 .main .small-banner img {
-  width: 400px;
+  width: 100%;
   height: 240px;
   object-fit: cover;
 }
@@ -297,6 +301,11 @@ a {
 
 .main .product-list-wrapper .product-list .product-item {
   text-align: center;
+}
+
+.main .product-list-wrapper .product-list .product-item img {
+  width: 100%;
+  height: auto;
 }
 
 .main .product-list-wrapper .product-list .product-item .product-info {
