@@ -66,6 +66,7 @@ a {
 .header .top-header {
   height: 48px;
   font-size: 15px;
+  line-height: 1;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -153,6 +154,11 @@ a {
   border-radius: 4px;
   padding-inline: 16px;
   border: 1px solid #DADADA;
+}
+
+.header .search-header .search-header-flex .search-wrapper .search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
 }
 
 .header .search-header .search-header-flex .search-wrapper img {
@@ -516,6 +522,10 @@ a {
   letter-spacing: 0.1em;
 }
 
+.footer .footer-top .footer-top-item .footer-top-item__list a:hover {
+  color: var(--primary-color);
+}
+
 .footer .footer-top .footer-top-item .footer-top-item__text {
   font-size: 15px;
   line-height: 18px;
@@ -535,6 +545,11 @@ a {
   padding-inline: 12px;
   border: 1px solid var(--font-color);
   background-color: var(--white-bg-color);
+}
+
+.footer .footer-top .footer-top-item .footer-top-item__subscribe input:focus {
+  outline: none;
+  border-color: var(--primary-color);
 }
 
 .footer .footer-top .footer-top-item .footer-top-item__subscribe button {
