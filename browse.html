@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Page - eCommerce App</title>
+    <link rel="stylesheet" href="./src/css/browse.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- top header -->
+        <div class="top-header">GIVE $20 GET $20 &nbsp;&nbsp; | &nbsp;&nbsp; Buy now, pay later</div>
+
+        <!-- social header -->
+        <div class="social-header">
+            <div class="custom-container social-header-flex">
+                <p class="text">Charity Partners</p>
+                <div class="social-icons">
+                    <span>350k</span>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./src/images/icon-instagram.svg" alt="instagram" />
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="./src/images/icon-facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="https://www.pinterest.com" target="_blank">
+                        <img src="./src/images/icon-pinterest.svg" alt="pinterest" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- search header -->
+        <div class="search-header">
+            <div class="custom-container search-header-flex">
+                <a href="/" class="site-logo">
+                    <!-- <img src="./src/images/logo.svg" alt="logo" /> -->
+                    <span>Company.com</span>
+                </a>
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" />
+                    <img src="./src/images/icon-search.svg" alt="search icon" />
+                </div>
+                <div class="menu-wrapper">
+                    <a href="">
+                        <img src="./src/images/icon-account.svg" alt="icon account" />
+                        <span>account</span>
+                    </a>
+                    <a href="">
+                        <img src="./src/images/icon-wishlist.svg" alt="icon wishlist" />
+                        <span>Wishlist</span>
+                    </a>
+                    <a href="">
+                        <img src="./src/images/icon-bag.svg" alt="icon bag" />
+                        <span>Bag</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- mobile header -->
+        <div class="mobile-header">
+            <div class="mobile-header-item">
+                <img src="./src/images/icon-mobile-menu.svg" alt="menu icon" />
+                <img src="./src/images/icon-search.svg" class="icon" alt="search icon" />
+            </div>
+            <div class="mobile-header-item">
+                <a href="/" class="site-logo">
+                    <span>Company.com</span>
+                </a>
+            </div>
+            <div class="mobile-header-item">
+                <a href="">
+                    <img src="./src/images/icon-account.svg" class="icon" alt="icon account" />
+                </a>
+                <a href="">
+                    <img src="./src/images/icon-wishlist.svg" class="icon" alt="icon wishlist" />
+                </a>
+                <a href="">
+                    <img src="./src/images/icon-bag.svg" class="icon" alt="icon bag" />
+                </a>
+            </div>
+        </div>
+
+        <!-- navbar header -->
+        <nav class="navbar-header">
+            <div class="custom-container navbar-header-flex">
+                <a href="">new</a>
+                <a href="">dresses</a>
+                <a href="">clothing</a>
+                <a href="">bridal</a>
+                <a href="" class="gifts">gifts</a>
+                <a href="">accessories</a>
+                <a href="" class="season-sale">end of season sale</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="browse-page" class="main">
+        <div class="custom-container">
+            <!-- breadcrumb link -->
+            <div class="breadcrumb-link">
+                <a href="">Home</a>
+                <span>/</span>
+                <span>Dresses</span>
+            </div>
+
+            <div class="main-content">
+                <!-- sidebar section -->
+                <aside class="sidebar">
+                    <div class="sidebar-item price">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4>Price</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <div class="range-slider">
+                                <span class="full-range"></span>
+                                <span class="incl-range"></span>
+                                <input name="rangeOne" value="0" min="0" max="100" step="1" type="range" />
+                                <input name="rangeTwo" value="100" min="0" max="100" step="1" type="range" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-item collection">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Collection</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <a href="">All</a>
+                                </li>
+                                <li>
+                                    <a href="">JUST IN</a>
+                                </li>
+                                <li>
+                                    <a href="">DRESSES</a>
+                                </li>
+                                <li>
+                                    <a href="">TOPS</a>
+                                </li>
+                                <li>
+                                    <a href="">BOTTOMS</a>
+                                </li>
+                                <li>
+                                    <a href="">KNITWEAR</a>
+                                </li>
+                                <li>
+                                    <a href="">ALL ACCESSORIES</a>
+                                </li>
+                                <li>
+                                    <a href="">SALE</a>
+                                </li>
+                                <li>
+                                    <a href="">TOPS</a>
+                                </li>
+                                <li>
+                                    <a href="">BOTTOMS</a>
+                                </li>
+                                <li>
+                                    <a href="">KNITWEAR</a>
+                                </li>
+                                <li>
+                                    <a href="">ALL ACCESSORIES</a>
+                                </li>
+                                <li>
+                                    <a href="">SALE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item size">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Size</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <a href="">xs</a>
+                                </li>
+                                <li>
+                                    <a href="">s</a>
+                                </li>
+                                <li>
+                                    <a href="">m</a>
+                                </li>
+                                <li>
+                                    <a href="">l</a>
+                                </li>
+                                <li>
+                                    <a href="">xl</a>
+                                </li>
+                                <li>
+                                    <a href="">xxl</a>
+                                </li>
+                                <li>
+                                    <a href="">3xl</a>
+                                </li>
+                                <li>
+                                    <a href="">4xl</a>
+                                </li>
+                                <li>
+                                    <a href="">sm</a>
+                                </li>
+                                <li>
+                                    <a href="">ml</a>
+                                </li>
+                                <li>
+                                    <a href="">lxl</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item color">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Color</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <p class="circle circle-red"></p>
+                                        <span>Red</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="circle circle-blue"></p>
+                                        <span>Blue</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="circle circle-gold"></p>
+                                        <span>Gold</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="circle circle-grey"></p>
+                                        <span>Grey</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="circle circle-pink"></p>
+                                        <span>Pink</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item length">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Length</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Party</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Evening</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Baby Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Bridal Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Holiday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Wedding</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item length">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Pattern</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Party</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Evening</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Baby Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Bridal Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Holiday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Wedding</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item length">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Occasion</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Party</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Evening</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Baby Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Bridal Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Holiday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Wedding</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Wedding Guest Dress</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item length">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Style</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Party</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Evening</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Baby Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Bridal Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Holiday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Wedding</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar-item length">
+                        <div class="sidebar-item__header">
+                            <img src="./src/images/icon-down-arrow.svg" alt="icon down arrow" />
+                            <h4 class="title">Season</h4>
+                        </div>
+                        <div class="sidebar-item__body">
+                            <ul>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Party</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Evening</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Baby Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Bridal Shower</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Holiday</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <label for="">Wedding</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- main content -->
+                <div class="browse-content">
+                    <h2 class="title">Dresses</h2>
+
+                    <!-- search box -->
+                    <div class="search-box">
+                        <input type="text" placeholder="Search products" />
+                        <img src="./src/images/icon-search.svg" alt="search icon" />
+                    </div>
+
+                    <!-- product sort -->
+                    <div class="sort-wrapper">
+                        <p class="product-count">206 Products</p>
+                        <select name="sort" id="sort" class="sort-dropdown">
+                            <option value="">Sort</option>
+                            <option value="">Price low to high</option>
+                            <option value="">Price high to low</option>
+                            <option value="">Discount low to high</option>
+                            <option value="">Discount high to low</option>
+                        </select>
+                    </div>
+
+                    <!-- product list -->
+                    <div class="product-list">
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-1.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-2.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-3.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-4.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-5.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-6.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-7.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-8.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <img src="./src/images/product-5.png" alt="product" />
+                            <div class="product-info">
+                                <p class="product-size">s m l xl</p>
+                                <p class="product-name">Jericha Knit Top</p>
+                                <p class="product-price">$69.95</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pagination -->
+                    <div class="pagination">
+                        <ul>
+                            <li>
+                                <button type="button" class="prev">
+                                    <img src="./src/images/icon-left-arrow.svg" alt="icon left arrow" />
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button">1</button>
+                            </li>
+                            <li>
+                                <button type="button">2</button>
+                            </li>
+                            <li>
+                                <button type="button">3</button>
+                            </li>
+                            <li>
+                                <button type="button">...</button>
+                            </li>
+                            <li>
+                                <button type="button">9</button>
+                            </li>
+                            <li>
+                                <button type="button" class="next">
+                                    <img src="./src/images/icon-right-arrow.svg" alt="icon right arrow" />
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- seo related content -->
+                    <div class="seo-content">
+                        <div>
+                            <h4>SHOP WOMEN'S DRESSES ONLINE</h4>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a
+                                page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                                here', making it look like readable English. Many desktop publishing packages and web
+                                page
+                                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                                will
+                                uncover many web sites still in their infancy. Various versions have evolved over the
+                                years,
+                                sometimes by accident, sometimes on purpose.
+                            </p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                            </p>
+                        </div>
+                        <div class="second-div">
+                            <h4>DISCOVER WOMEN'S DRESSES FOR ALL OCCASIONS</h4>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+                            <p>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+                                need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="custom-container footer-top">
+            <div class="footer-top-item">
+                <h5 class="footer-top-item__text">Sign Up & Get 10% Off Your First Purchase</h5>
+                <div class="footer-top-item__subscribe">
+                    <input type="text" />
+                    <button type="button">Subscribe</button>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./src/images/icon-instagram.svg" alt="instagram" />
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="./src/images/icon-facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="https://www.pinterest.com" target="_blank">
+                        <img src="./src/images/icon-pinterest.svg" alt="pinterest" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-top-item">
+                <h5 class="footer-top-item__title">Need help?</h5>
+                <div class="footer-top-item__list">
+                    <a href="">Returns</a>
+                    <a href="">Reviews</a>
+                    <a href="">Shipping</a>
+                    <a href="">FAQ</a>
+                </div>
+            </div>
+
+            <div class="footer-top-item">
+                <h5 class="footer-top-item__title">Our policies</h5>
+                <div class="footer-top-item__list">
+                    <a href="">Terms of Service</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Royal Rewards Policy</a>
+                    <a href="">Buy Now, Pay Later</a>
+                    <a href="">Affiliates</a>
+                </div>
+            </div>
+
+            <div class="footer-top-item">
+                <h5 class="footer-top-item__title">Fun stuff</h5>
+                <div class="footer-top-item__list">
+                    <a href="">About Us</a>
+                    <a href="">Gift Cards</a>
+                    <a href="">Give $20, Get $20</a>
+                    <a href="">15% OFF Student Discount</a>
+                    <a href="">Royal Rewards</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-app-link">
+            <img src="./src/images/icon-app-store.png" alt="app store" />
+            <img src="./src/images/icon-play-store.png" alt="play store" />
+        </div>
+
+        <div class="footer-payment">
+            <img src="./src/images/icon-visa.svg" alt="visa" />
+            <img src="./src/images/icon-card.svg" alt="card" />
+            <img src="./src/images/icon-gpay.svg" alt="gpay" />
+            <img src="./src/images/icon-apple-pay.svg" alt="apple pay" />
+            <img src="./src/images/icon-jcb.svg" alt="jcb" />
+            <img src="./src/images/icon-pay.svg" alt="pay" />
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2023 <a href="" target="_blank">Company.com</a></p>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/js/main.js"></script>
+</body>
+
+</html>
