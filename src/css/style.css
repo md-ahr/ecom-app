@@ -237,7 +237,7 @@ a {
 
 .mobile-header {
   padding: 15px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
 }
@@ -254,6 +254,13 @@ a {
   color: var(--font-color);
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 991px) {
+  .mobile-header {
+    display: flex;
+  }
+}
+
 
 @media screen and (max-width: 424px) {
   .mobile-header .mobile-header-item .icon {
@@ -399,7 +406,7 @@ a {
 ------------------*/
 
 .main .product-list-wrapper {
-  margin-block: 0 28px;
+  margin-bottom: 91px;
 }
 
 .main .product-list-wrapper .title {
@@ -469,7 +476,7 @@ a {
 }
 
 .main .product-list-wrapper .btn-wrapper {
-  margin-top: 36px;
+  margin-top: 42px;
   text-align: center;
 }
 
@@ -482,7 +489,7 @@ a {
 
 @media screen and (max-width: 991px) {
   .main .product-list-wrapper {
-    margin-top: 24px;
+    margin-block: 24px 28px;
   }
   .main .product-list-wrapper .product-list {
     margin-top: 20px;
